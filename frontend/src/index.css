@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f6f6;
+}
+body,
+html {
+  overflow-x: hidden !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.ant-row {
+  margin: 0 20 !important;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #00d5fa;
+}
+p {
+  margin: 5px !important;
+  text-align: left;
+  padding: 0;
+}
+
+.header {
+  padding: 0.6rem;
+  background-color: #f6f6f6;
+  outline: none;
+}
+
+.header .ant-btn{
+  box-shadow: none !important;
+  background-color : white !important;
+  color: #00d5fa !important;
+  border: 1px solid #00d5fa !important;
+  padding: 5px 15px !important;
+  outline: none !important;
+}
+
+.content {
+  min-height: 90vh;
+}
+
+.carImg {
+  height: 18rem;
+  width: auto;
+  border-radius: 5%;
+  transform: translateY(-20px);
+}
+
+.car-content {
+  transform: translateY(-60px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.car {
+  border-radius: 4%;
+  margin-top: 100px;
+  height: 18rem;
+  transition: 0.3s;
+}
+
+.car:hover {
+  height: 21rem;
+}
+
+.car:hover > .car-content {
+  opacity: 1;
+  transform: translateY(-22px);
+}
+
+.btn1{
+  box-shadow: none !important;
+  background-color: #f6f6f6;
+  color: #00d5fa;
+  border: 1px solid #00d5fa;
+  padding: 5px 15px !important;
+  outline: none;
+}
+
+.btn:focus {
+  border: none;
+}
+
+.login{
+  background-color: black;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+.login label , .login h1{
+  color: white !important;
+  opacity: 0.6;
+}
+.login-form{
+  background-color: #1F1F1F;
+}
+.login-form input{
+  background-color: #333333 !important;
+  border : none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login a{
+  color: white !important;
+  opacity: 0.5;
+}
